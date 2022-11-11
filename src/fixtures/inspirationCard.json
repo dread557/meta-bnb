@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Desert king",
+    "price": "1MBT per night",
+    "distance": "2345km away",
+    "duration": "available for 2weeks stay",
+    "image": "../assets/1.png"
+  },
+  {
+    "id": 2,
+    "name": "Desert king",
+    "price": "1MBT per night",
+    "distance": "2345km away",
+    "duration": "available for 2weeks stay",
+    "image": "../assets/2.png"
+  },
+  {
+    "id": 3,
+    "name": "Desert king",
+    "price": "1MBT per night",
+    "distance": "2345km away",
+    "duration": "available for 2weeks stay",
+    "image": "../assets/3.png"
+  },
+  {
+    "id": 4,
+    "name": "Desert king",
+    "price": "1MBT per night",
+    "distance": "2345km away",
+    "duration": "available for 2weeks stay",
+    "image": "../assets/4.png"
+  },
+  {
+    "id": 5,
+    "name": "Desert king",
+    "price": "1MBT per night",
+    "distance": "2345km away",
+    "duration": "available for 2weeks stay",
+    "image": "../assets/5.png"
+  },
+  {
+    "id": 6,
+    "name": "Desert king",
+    "price": "1MBT per night",
+    "distance": "2345km away",
+    "duration": "available for 2weeks stay",
+    "image": "../assets/6.png"
+  },
+  {
+    "id": 7,
+    "name": "Desert king",
+    "price": "1MBT per night",
+    "distance": "2345km away",
+    "duration": "available for 2weeks stay",
+    "image": "../assets/7.png"
+  },
+  {
+    "id": 8,
+    "name": "Desert king",
+    "price": "1MBT per night",
+    "distance": "2345km away",
+    "duration": "available for 2weeks stay",
+    "image": "../assets/8.png"
+  }
+]
