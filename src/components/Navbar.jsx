@@ -6,13 +6,15 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleResize = () => setScreenSize(window.innerWidth)
+
         window.addEventListener('resize', handleResize)
+
         handleResize()
         return () => window.removeEventListener('resize', handleResize)
     }, [])
 
     useEffect(() => {
-        if (screenSize <= 768) {
+        if (screenSize <= 912) {
             setActiveMenu(false)
         } else {
             setActiveMenu(true)
@@ -31,14 +33,13 @@ const Navbar = () => {
             <div className='flex space-x-1 items-center'>
                 <img className='w-[41.99px] h-[36.37px]' src='../assets/logo.png' alt='logo' />
                 {screenSize >= 768 && (<img className='' src='../assets/logo-text.png' alt='meta bnb' />)}
-                {/* <h1 className='lg:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#DC3E88] via-[#B840AE] to-[#843FE8]'>MetaBnb</h1> */}
             </div>
-            <div className='text-2xl lg:hidden cursor-pointer relative z-20' onClick={() => setActiveMenu(!activeMenu)}>
+            <div className=' text-2xl lg:hidden cursor-pointer relative z-20' onClick={() => setActiveMenu(!activeMenu)}>
                 <ion-icon name={activeMenu ? 'close' : 'menu'}></ion-icon>
             </div>
             {activeMenu && (
                 <div className='flex flex-col lg:flex-row justify-center lg:justify-end h-screen lg:h-fit items-center absolute lg:relative top-0 bottom-0 lg:top-0 z-10  lg:space-x-16 bg-[#A088EC] w-[100%] left-0 right-0 lg:bg-inherit'>
-                    <nav className='flex flex-col lg:flex-row space-y-10 lg:space-y-0 lg:space-x-12 '>
+                    <nav className='flex flex-col lg:flex-row lg:grow lg:justify-center space-y-10 lg:space-y-0 lg:space-x-12 '>
                         {links.map((link) => (
                             <a key={link.name} className='hover:text-[#A02279]' href={link.link}>{link.name}</a>
                         ))}
