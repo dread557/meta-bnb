@@ -1,17 +1,17 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Header from './components/Header'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import { Communities, Home, Nfts, Places } from './pages';
+import { Community, Home, Nfts, Places } from './pages';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/places' element={<Places />} />
-        <Route exact path='/communities' element={<Communities />} />
+        <Route exact path='/community' element={<Community />} />
         <Route exact path='/nfts' element={<Nfts />} />
       </Routes>
       <Footer />
