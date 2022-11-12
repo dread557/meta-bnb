@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react'
+// import { useScrollPosition } from './useScrollPosition'
 
 const Navbar = ({ openModal, setOpenModal }) => {
     const [screenSize, setScreenSize] = useState(null)
     const [activeMenu, setActiveMenu] = useState(false)
+    // const scrollPosition = useScrollPosition()
+
 
     useEffect(() => {
         const handleResize = () => setScreenSize(window.innerWidth)

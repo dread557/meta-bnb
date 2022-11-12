@@ -2,7 +2,7 @@ import React from 'react'
 
 const Places = () => {
     return (
-        <div>Places</div>
+        <div className='text-center mb-[160px]'>Places coming soon mafo</div>
     )
 }
 

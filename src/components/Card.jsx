@@ -13,11 +13,11 @@ const Card = ({ name, price, distance, duration, image }) => {
                 <p className='text-xs'>{duration}</p>
             </div>
             <div className='flex space-x-2'>
-                <img src='../assets/star.png' alt='star' />
-                <img src='../assets/star.png' alt='star' />
-                <img src='../assets/star.png' alt='star' />
-                <img src='../assets/star.png' alt='star' />
-                <img src='../assets/star.png' alt='star' />
+                <img src='/../assets/star.png' alt='star' />
+                <img src='/../assets/star.png' alt='star' />
+                <img src='/../assets/star.png' alt='star' />
+                <img src='/../assets/star.png' alt='star' />
+                <img src='/../assets/star.png' alt='star' />
             </div>
         </div>
     )
