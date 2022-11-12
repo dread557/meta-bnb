@@ -12,12 +12,22 @@ const Card = ({ name, price, distance, duration, image }) => {
                 <p className='text-xs'>{distance}</p>
                 <p className='text-xs'>{duration}</p>
             </div>
-            <div className='flex space-x-2'>
-                <img src='/../assets/star.png' alt='star' />
-                <img src='/../assets/star.png' alt='star' />
-                <img src='/../assets/star.png' alt='star' />
-                <img src='/../assets/star.png' alt='star' />
-                <img src='/../assets/star.png' alt='star' />
+            <div className='flex space-x-2 mb-4'>
+                <div className='text-[#A02279] h-3 w-3'>
+                    <ion-icon name="star"></ion-icon>
+                </div>
+                <div className='text-[#A02279] h-3 w-3'>
+                    <ion-icon name="star"></ion-icon>
+                </div>
+                <div className='text-[#A02279] h-3 w-3'>
+                    <ion-icon name="star"></ion-icon>
+                </div>
+                <div className='text-[#A02279] h-3 w-3'>
+                    <ion-icon name="star"></ion-icon>
+                </div>
+                <div className='text-[#A02279] h-3 w-3'>
+                    <ion-icon name="star"></ion-icon>
+                </div>
             </div>
         </div>
     )
