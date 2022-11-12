@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const Navbar = () => {
+const Navbar = ({ openModal, setOpenModal }) => {
     const [screenSize, setScreenSize] = useState(null)
     const [activeMenu, setActiveMenu] = useState(false)
 
@@ -44,7 +44,7 @@ const Navbar = () => {
                             <a key={link.name} className='hover:text-[#A02279]' href={link.link}>{link.name}</a>
                         ))}
                     </nav>
-                    <button className='h-[45px] w-[160px] bg-[#A02279] text-white rounded-[10px] hover:bg-[#7272dc] mt-4 lg:mt-0'>Connect Wallet</button>
+                    <button onClick={() => setOpenModal(true)} className='h-[45px] w-[160px] bg-[#A02279] text-white rounded-[10px] hover:bg-opacity-80 mt-4 lg:mt-0'>Connect Wallet</button>
                 </div>
             )}
         </header>

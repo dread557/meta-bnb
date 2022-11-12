@@ -19,7 +19,7 @@ const HeroSection = () => {
                         type='text'
                         placeholder='Search for location' />
                     <button
-                        className='h-[54px] bg-[#A02279] w-[120px] lg:w-[230px] rounded-tr-lg text-white outline-none rounded-br-lg'>
+                        className='h-[54px] bg-[#A02279] hover:bg-opacity-80 w-[120px] lg:w-[230px] rounded-tr-lg text-white outline-none rounded-br-lg'>
                         Search
                     </button>
                 </div>

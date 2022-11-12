@@ -10,7 +10,7 @@ const GiftCard = () => {
                     which are traded as NFTs. These NFTs gives
                     our cutomer access to loads of our exclusive services.
                 </p>
-                <button className='text-[#A02279] bg-white mt-[57px] h-12 w-[156px] rounded'>Learn more</button>
+                <button className='text-[#A02279] hover:bg-opacity-80 bg-white mt-[57px] h-12 w-[156px] rounded'>Learn more</button>
             </div>
             <div className=' w-[50%]'>
                 <img className='hidden md:flex md:w-[35%]  absolute md:top-[22%] lg:top-[28%] left-[39%] z-20' src='../assets/gift-1.png' alt='gift card' />
