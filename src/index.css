@@ -2,7 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Red Rose', cursive;
     color: #434343;
+}
+
+.scroll {
+    -webkit-overflow-scrolling: touch;
+     -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
 }

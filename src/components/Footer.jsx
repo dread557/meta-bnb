@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='p-8 lg:p-14 bg-[#1D1D1E] text-[#F1F3F9]'>
+        <div className='p-8 lg:p-14 lg:pl-24 lg:pr-24 bg-[#1D1D1E] text-[#F1F3F9]'>
             <div className='flex flex-col md:flex-row justify-between md:items-center'>
                 <div className='flex flex-col gap-6'>
                     <img className='w-[60%] md:w-auto' src='../assets/ft-logo.svg' alt='logo' />

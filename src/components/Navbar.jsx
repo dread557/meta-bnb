@@ -32,7 +32,7 @@ const Navbar = ({ openModal, setOpenModal }) => {
     ]
 
     return (
-        <header className='flex justify-between p-8 lg:p-14 lg:pt-11 pt-7 items-center'>
+        <header className='flex justify-between p-8 lg:p-14 lg:pt-11 lg:pl-24 lg:pr-24 pt-7 items-center'>
             <div className='flex space-x-1 items-center'>
                 <img className='w-[41.99px] h-[36.37px]' src='../assets/logo.png' alt='logo' />
                 {screenSize >= 768 && (<img className='' src='../assets/logo-text.png' alt='meta bnb' />)}
