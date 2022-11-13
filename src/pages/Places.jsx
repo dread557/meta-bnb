@@ -14,7 +14,7 @@ const Places = () => {
                 <button>Carbins</button>
                 <button className='whitespace-nowrap'>Off-grid</button>
                 <button>Farms</button>
-                <button className='flex ml-[17px] gap-3 border justify-between p-3 items-center min-w-[161px] h-12 rounded'>
+                <button className='flex ml-[17px] absolute right-[7%] z-10 top-[9%] md:top-[7%] lg:static bg-white gap-3 border justify-between p-3 items-center min-w-[161px] h-12 rounded'>
                     Location
                     <img src='../assets/settings.png' alt='settings' />
                 </button>
