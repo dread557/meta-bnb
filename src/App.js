@@ -8,7 +8,7 @@ import Modal from './components/Modal';
 function App() {
   const [openModal, setOpenModal] = useState(false)
   return (
-    <div className="App">
+    <div className="App max-w-[1440px] m-auto">
       <Modal openModal={openModal} setOpenModal={setOpenModal} />
       <Navbar openModal={openModal} setOpenModal={setOpenModal} />
       <Routes>
