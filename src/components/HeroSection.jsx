@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
     return (
-        <div className='flex flex-col lg:flex-row p-8 lg:p-14 lg:pl-24 lg:pr-24 pt-2 md:pt-16 lg:gap-8 justify-between '>
+        <div className='flex flex-col lg:flex-row p-8 lg:p-14 lg:pl-12 lg:pr-12 xl:pl-24 xl:pr-24pt-2 md:pt-16 lg:gap-8 justify-between '>
             <div className='flex flex-col lg:w-[60%]'>
                 <h1 className=' text-3xl lg:text-[56px] lg:w-[100%] leading-[140%] grow'>Rent a
                     <span className='text-[#A02279] font-bold ml-2 mr-2'>Place</span>
